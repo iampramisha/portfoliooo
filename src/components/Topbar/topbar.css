@@ -1,0 +1,99 @@
+.topbar {
+    width: 100vw;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    font-size: 30px;
+    position: fixed;
+    top: 0;
+    text-decoration: none;
+ text-decoration: none;
+ z-index: 100;
+}
+
+.gen{
+    text-decoration: none;
+    display: flex;
+}
+.user{
+    display: flex;
+    height: 50px;
+    border-radius: 3225px;
+    margin-left: 65px;
+}
+.mail{
+    height: 50px;
+    border-radius: 3225px;
+    display: flex;
+    margin-left: 90px;
+}
+h2{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.gen {
+    text-decoration: none;
+    display: flex;
+    color: white; /* Default color */
+}
+
+.topbar.dark .gen {
+    color: black; /* Color for dark mode */
+}
+
+.email{
+    margin-left: 29px;
+    font-size: 20px;
+}
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+    cursor: pointer;
+}
+
+.topbar.dark{
+    color:rgb(17, 17, 17);
+    background-color: white;
+}
+.topbar.lightmode{
+    color: white;
+    background-color: black;
+}
+    .toggle {
+        background-color: bisque;
+        height: 30px;
+        margin-top: 5px;
+        display: flex;
+        margin-left: 412px;
+        border-radius: 18px;
+    }
+    .topbar.dark .line {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .hamburger .line {
+        background-color: rgb(206, 118, 118); /* Or any other color you prefer */
+        height: 3px;
+        width: 25px;
+        border-radius: 2px;
+        margin-left: 94px;
+        transition: all 0.3s ease;
+    }
+    .hamburger.open .line {
+        transform: rotate(45deg); /* Adjust rotation as needed */
+        background-color: rgb(204, 248, 8); /* Change color or any other style for open lines */
+      }
+      
+      .hamburger.open .line:nth-child(2) {
+        opacity: 0; /* Hide middle line when open */
+      }
+      
+      .hamburger.open .line:nth-child(3) {
+        transform: rotate(-45deg); /* Adjust rotation as needed */
+      }

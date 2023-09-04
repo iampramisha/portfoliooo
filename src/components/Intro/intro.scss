@@ -1,0 +1,59 @@
+.intro{
+height:900px;
+width: 100vw;
+}
+.pic{
+height:800px;
+width: 50%;
+border-radius: 60%;
+}
+.right{
+margin-top: -633px;
+margin-left: 605px;
+font-size: 65px;
+}
+.down{
+height: 50px;
+width: 20%;
+align-items: center;
+margin-top: 210px;
+margin-left: 280px;
+animation: arrowBlink 2s infinite
+}
+@keyframes arrowBlink {
+0%, 100% {
+  opacity: 0;
+}
+50% {
+  opacity: 1;
+}
+}
+span{
+color: red;
+font-weight: bold;
+margin-left: 18px;
+}
+
+h8{
+  color: rgb(83, 119, 150);
+  margin-top: 420px;
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 77px;
+}
+h6{
+  padding-top: 10px;
+  font-size: 39px;
+}
+.ityped-cursor{
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+  
+}
